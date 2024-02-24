@@ -1,0 +1,337 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-navgator {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: rgb(255, 183, 0);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-bottom: 0;
+  gap: 20px;
+  font-size: large;
+  list-style: none;
+  transition: opacity 0.5 ease-in-out;
+  z-index: 1000;
+}
+.home {
+  display: flex;
+  position: relative;
+  margin-top: 75px;
+}
+.text-home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* right: 15%; */
+  /* bottom: 5rem; */
+  /* left: 15%; */
+  padding-bottom: 10%;
+  color: #fff;
+  font-size: large;
+  opacity: 1;
+  gap: 5px;
+}
+
+.text-home h2 {
+  font-size: 2rem;
+}
+.text-home h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+#btn {
+  background-color: aliceblue;
+  color: black;
+  width: 200px;
+  height: 60px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 50px;
+}
+#btn:hover {
+  background-color: rgb(255, 183, 0);
+}
+.cons {
+  font-weight: bolder;
+}
+.about {
+  background-color: rgb(255, 255, 255);
+  /* height: 90vh; */
+  /* width: 100%; */
+}
+.aboutDiv h1 {
+  font-weight: bolder;
+}
+.aboutDiv h4 {
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.aboutDiv p {
+  color: rgba(0, 0, 0, 0.507);
+}
+#btn2 {
+  background-color: rgba(0, 0, 0, 0.594);
+  color: white;
+  width: 170px;
+  height: 50px;
+  font-size: larger;
+  border-radius: 50px;
+}
+#btn2:hover {
+  background-color: rgb(255, 183, 0);
+}
+#aboutimg {
+  cursor: pointer;
+  overflow: hidden;
+}
+#aboutimg:hover {
+  transform: scale(1.1);
+  transition: transform 2s ease-in-out;
+}
+#aboutimg:not(:hover) {
+  transform: scale(1);
+  transition: transform 1s ease-in-out;
+}
+.col i {
+  font-size: 30px;
+  padding: 0 10px;
+}
+.col p {
+  color: rgba(0, 0, 0, 0.507);
+}
+.secThree {
+  background-image: url(image/quote-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  /* height: 40vh;
+   */
+  padding: 14px 0;
+  color: #fff;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.secThree h2 {
+  position: relative;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+.secThree h2::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  margin-left: 10px;
+  width: 100px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+}
+#btn3 {
+  background-color: aliceblue;
+  color: black;
+  width: 200px;
+  height: 70px;
+  font-size: larger;
+  border-radius: 50px;
+}
+#btn3:hover {
+  color: #fff;
+  background-color: rgb(255, 183, 0);
+}
+.service {
+  background-image: url(image/service-bg.jpg);
+  background-size: cover;
+  /* padding: 20px 0; */
+  padding-block: 40px;
+}
+.headService p {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.headService span {
+  color: rgb(255, 183, 0);
+}
+.cardicon {
+  font-size: 44px;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin-top: -46px;
+  float: left;
+  margin-right: 15px;
+}
+.cardserv {
+  border: 1px solid #eee;
+  padding: 25px;
+  background: #fff;
+  /* height: 300px;
+  min-height: 260px; */
+  /* width: 30%; */
+}
+.cardserv:hover {
+  box-shadow: 0px 0px 20px 2px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.541);
+}
+.cardserv:hover .cardicon {
+  color: #eee;
+  background: rgb(255, 183, 0);
+}
+.cardserv h3 {
+  padding: 10px 10px 10px 100px;
+  color: black;
+}
+.cardserv h3:hover {
+  color: rgb(255, 183, 0);
+}
+.cardserv p {
+  padding: 0;
+  color: rgba(0, 0, 0, 0.447);
+}
+.secFive {
+  background-image: url(image/counter-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  display: grid;
+  align-items: center;
+}
+.secFive div,
+h3,
+h6 {
+  color: #eee;
+}
+.secFive i {
+  font-size: 60px;
+  justify-self: center;
+  align-self: center;
+  margin: 20px;
+}
+.secFive h3 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  justify-self: center;
+  align-self: center;
+}
+.secFive h6 {
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+}
+.projects .row {
+  width: 100%;
+}
+.projects .col-sm-12:hover .black-layer {
+  transform: scale(1);
+  cursor: pointer;
+}
+.black-layer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.6s;
+  transform: scale(0);
+}
+.black-layer h4 {
+  color: rgb(255, 183, 0);
+}
+.black-layer div {
+  color: #eee;
+}
+
+.testimonials {
+  width: 100%;
+  min-height: 520px;
+  background-image: url(image/testimonial-bg.jpg);
+  background-size: cover;
+}
+/* .expert {
+ 
+} */
+.contact {
+  width: 100%;
+  /* height: 800px; */
+  background-image: url(image/contact-bg.jpg);
+  background-size: cover;
+}
+.contactw {
+  width: 60%;
+}
+
+.contact button {
+  background-color: aliceblue;
+  color: black;
+  /* width: 200px;
+  height: 50px; */
+  padding: 14px 30px;
+  font-size: large;
+  border-radius: 50px;
+}
+.contact textarea:focus {
+  color: rgb(129, 165, 247);
+  outline: none;
+  border: 2px solid rgb(241, 0, 0);
+  border-radius: 14px;
+}
+.contact input:focus {
+  color: rgb(129, 165, 247);
+  outline: none;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 12px;
+}
+.contact button:hover {
+  color: #fff;
+  background-color: rgb(255, 183, 0);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  /* align-items: ; */
+  gap: 10px;
+  list-style: none;
+  font-size: 25px;
+}
+.social-icons i {
+  padding: 3px;
+  border: 1px black solid;
+}
+.social-icons i:hover {
+  color: white;
+  background-color: rgb(60, 128, 237);
+}
+
+.cardteam:hover {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+  .text-home h2 {
+    font-size: 1rem;
+  }
+  .text-home h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
